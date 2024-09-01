@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTelegram, faDiscord, faSignalMessenger } from '@fortawesome/free-brands-svg-icons'; // Import the signal-messenger icon
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; // Correct import for faEnvelope
 
 const Home: React.FC = () => {
+  useEffect(() => {
+    document.title = "Contact me.";
+  }, []);
+
   return (
     <div className="container">
       {/* Text Container */}
       <div className="text-container">
         <h1>Contact</h1>
         <p>The methods below are the only ways to reach me.</p>
-    </div>
-
+      </div>
 
       {/* Icons Container */}
       <div className="icons-container">
