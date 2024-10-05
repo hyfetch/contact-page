@@ -81,7 +81,7 @@ const Home: React.FC = () => {
         <a href="https://signal.me/#eu/E_mXZC3kXOSBBcyNjq9JrVlrx11S4wTtauFWxyOa4o4ZKjeVIsxI47opy_LmaOpu" target="_blank" rel="noopener noreferrer" className="icon">
           <FontAwesomeIcon icon={faSignalMessenger} size="2x" />
         </a>
-        <a href="https://dsc.gg/mstrv" target="_blank" rel="noopener noreferrer" className="icon">
+        <a href="https://dc.mero.lol" target="_blank" rel="noopener noreferrer" className="icon">
           <FontAwesomeIcon icon={faDiscord} size="2x" />
         </a>
         <a href="mailto:contact@mero.lol" className="icon">
