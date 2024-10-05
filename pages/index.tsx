@@ -76,7 +76,7 @@ const Home: React.FC = () => {
       {/* Icons Container */}
       <div className="icons-container">
         <a href="https://t.me/mstrvlol" target="_blank" rel="noopener noreferrer" className="icon">
-          <FontAwesomeIcon icon={faTelegram} size="2x" />a
+          <FontAwesomeIcon icon={faTelegram} size="2x" />
         </a>
         <a href="https://signal.me/#eu/E_mXZC3kXOSBBcyNjq9JrVlrx11S4wTtauFWxyOa4o4ZKjeVIsxI47opy_LmaOpu" target="_blank" rel="noopener noreferrer" className="icon">
           <FontAwesomeIcon icon={faSignalMessenger} size="2x" />
