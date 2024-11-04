@@ -11,7 +11,7 @@ body {
   align-items: center; /* Center horizontally */
   justify-content: center; /* Center vertically */
   height: 100vh; /* Full viewport height */
-  background-color: #1a1b26; /* Background color */
+  background-color: #ffffff; /* Change background color to white */
 }
 
 /* Icons Container */
@@ -28,7 +28,7 @@ body {
   display: inline-block;
   margin: 5px;
   transition: transform 0.3s ease; /* Smooth transition for scaling */
-  color: white; /* Make icons white */
+  color: black; /* Change icon color to black for contrast on white background */
 }
 
 /* Hover effect for the icons */
@@ -39,7 +39,7 @@ body {
 /* Centered text with smooth font edges */
 .text-container {
   text-align: center; /* Center text horizontally */
-  color: #ffffff; /* Text color */
+  color: #000000; /* Change text color to black for contrast on white background */
   font-family: 'Quicksand', sans-serif; /* Smooth, clean font */
   font-size: 18px; /* Adjust font size as needed */
   font-weight: 400; /* Normal weight for smooth text appearance */
@@ -47,6 +47,14 @@ body {
   padding: 10px; /* Add padding for some space around the text */
 }
 
-/* Footer styling as a large invisible box */
 
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.7rem;
+  text-align: center;
+}
 
