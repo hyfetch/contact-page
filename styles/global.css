@@ -19,14 +19,14 @@ body {
   display: flex; /* Use flexbox for layout */
   flex-wrap: wrap; /* Allow icons to wrap to the next line */
   justify-content: center; /* Center icons horizontally */
-  padding: 5px; /* Add some padding around the container */
+  padding: 10px; /* Add some padding around the container */
   border-radius: 10px; /* Rounded corners */
 }
 
 /* Styling for the icons */
 .icon {
   display: inline-block;
-  margin: 5px;
+  margin: 10px; /* Add some spacing between icons */
   transition: transform 0.3s ease; /* Smooth transition for scaling */
   color: black; /* Change icon color to black for contrast on white background */
 }
